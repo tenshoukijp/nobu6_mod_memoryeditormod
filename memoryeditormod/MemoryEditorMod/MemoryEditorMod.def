@@ -1,0 +1,7 @@
+LIBRARY MemoryEditorMod
+EXPORTS
+	OnInitialize = meOnInitialize @ 1
+	OnMainGameStart = meOnMainGameStart @ 2
+	OnFinalize = meOnFinalize @ 3
+	OnApplicationSelectMenuItem = meOnApplicationSelectMenuItem @ 4
+	

@@ -1,0 +1,50 @@
+﻿2022/04/10 18:20:24 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "D:\usr\koei\tenshouki95\dllwrap\MemoryEditorMod\MemoryEditorMod\MemoryEditorMod.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /Ox /Ot /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _ERNEL32_EXPORTS /D _USE_MATH_DEFINES /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /GF /EHa /MD /Zp1 /GS /Gy /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/vc120.pdb" /TP /wd4793 /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /analyze- /errorReport:prompt /clr:nostdlib /Zp1 /MP "武将情報型.cpp"
+         武将情報型.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Ox /Ot /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _ERNEL32_EXPORTS /D _USE_MATH_DEFINES /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /GF /EHa /MD /Zp1 /GS /Gy /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/" /TP /wd4793 /analyze- /errorReport:prompt /Zp1 /MP "C:\Users\master\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+     1>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(2554,5): warning MSB3088: 状態ファイル ".\Release\MemoryEditorMod.vcxproj.GenerateResource.Cache" を読み取れませんでした。入力ストリームは有効なバイナリ形式ではありません開始コンテンツ (バイト): 06-01-01-00-00-00-01-14-4D-65-6D-6F-72-79-45-64-69 ...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0600 /D _USING_V110_SDK71_ /l"0x0411" /nologo /fo".\Release\MemoryEditorMod.res" MemoryEditorMod.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release/MemoryEditorMod.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\MemoryEditorMod.def" /ASSEMBLYRESOURCE:.\Release\MemoryEditorMod.MemoryEditorMod.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\Release/MemoryEditorMod.pdb" /SUBSYSTEM:WINDOWS,"5.01" /STACK:"8388603" /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /FIXED:NO /IMPLIB:".\Release/MemoryEditorMod.lib" /MACHINE:X86 /SAFESEH  /NODEFAULTLIB:LIBCMT  /DLL .\Release\MemoryEditorMod.res
+         .\Release/Menu.obj
+         .\Release/ModMode.obj
+         .\Release/ProcessHandle.obj
+         ".\Release/アプリケーション情報型.obj"
+         ".\Release/エキスポート関数群.obj"
+         ".\Release/カスタム駆動関数.obj"
+         ".\Release/ゲームデータ構造.obj"
+         ".\Release/シナリオ情報型.obj"
+         ".\Release/デバッグ情報型.obj"
+         ".\Release/デバッグ画像情報型.obj"
+         ".\Release/フラグ情報型.obj"
+         ".\Release/メッセージ関連情報型.obj"
+         ".\Release/地域情報型.obj"
+         ".\Release/城情報型.obj"
+         ".\Release/大名情報型.obj"
+         ".\Release/天気情報型.obj"
+         ".\Release/官位情報型.obj"
+         ".\Release/家宝情報型.obj"
+         ".\Release/年情報型.obj"
+         ".\Release/役職情報型.obj"
+         ".\Release/情報ポインタ定義.obj"
+         ".\Release/戦場情報型.obj"
+         ".\Release/武将情報型.obj"
+         ".\Release/画面演出情報型.obj"
+         ".\Release/相場情報型.obj"
+         ".\Release/補助ライブラリ.obj"
+         ".\Release/軍団情報型.obj"
+         ".\Release/音楽情報型.obj"
+         ".\Release/２Ｄ位置情報型.obj"
+         ".\Release/３Ｄ位置情報型.obj"
+         ".\Release/.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+            ライブラリ .\Release/MemoryEditorMod.lib とオブジェクト .\Release/MemoryEditorMod.exp を作成中
+         MemoryEditorMod.vcxproj -> D:\usr\koei\tenshouki95\dllwrap\MemoryEditorMod\MemoryEditorMod\.\Release\MemoryEditorMod.dll
+     1>プロジェクト "D:\usr\koei\tenshouki95\dllwrap\MemoryEditorMod\MemoryEditorMod\MemoryEditorMod.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:04.86

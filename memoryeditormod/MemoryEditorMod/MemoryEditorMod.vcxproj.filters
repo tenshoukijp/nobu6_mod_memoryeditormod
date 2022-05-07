@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="参照しない。変更しない。">
+      <UniqueIdentifier>{bfff6d26-075c-4c92-bfde-ecedf447245c}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="参照しない。変更しない。\APIとデータ構造">
+      <UniqueIdentifier>{052c27c9-3ef0-4836-9056-7060902a5c57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="参照しない。変更しない。\APIとデータ構造\アドレス%28理解する必要なし%29">
+      <UniqueIdentifier>{848c14d7-0b20-48ef-a337-fe248c4e2742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="参照しない。変更しない。\APIとデータ構造\ソース（理解する必要なし）">
+      <UniqueIdentifier>{87976f37-dd23-41a0-ac52-1b0ea772b4ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="参照しない。変更しない。\APIとデータ構造\リソース">
+      <UniqueIdentifier>{53b739c4-fed2-49ef-99f6-e0966766d2db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="参照しない。変更しない。\本体用プログラム">
+      <UniqueIdentifier>{29925e97-efee-457d-ad50-fc7944b5ca1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="参照しない。変更しない。\本体用プログラム\エキスポ">
+      <UniqueIdentifier>{04a57ca1-0af5-473c-abfe-9cf7ab6c7b68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="参照しない。変更しない。\本体用プログラム\リソース">
+      <UniqueIdentifier>{75cc8f7e-1963-4ddb-afcf-0b4cafdcb4f2}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="参照しない。変更しない。\本体用プログラム\ライブラリ">
+      <UniqueIdentifier>{016b291c-8274-4857-9c04-1fa04ef32c6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="参照しない。変更しない。\本体用プログラム\ライブラリ\デバッグ出力">
+      <UniqueIdentifier>{f10433f6-f9a4-4e48-96a1-c4f0b29f6520}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="参照しない。変更しない。\本体用プログラム\プロセス">
+      <UniqueIdentifier>{fe4b67b8-6661-49f4-8b39-2dd8f1c97a83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="参照する。変更しない。">
+      <UniqueIdentifier>{312a06b2-b565-4096-a1ec-2a149a1e57eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="参照する。変更しない。\APIとデータ構造">
+      <UniqueIdentifier>{6c9c08b1-49e4-45d4-bd9e-918d3b803af5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="参照する。変更しない。\データ構造名%28ここにある[p○○○○]が使える構造体だ%29">
+      <UniqueIdentifier>{d0f82f66-a17a-403a-89b1-5945038af11b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="自分で変更する。自分でバックアップを取っておく。">
+      <UniqueIdentifier>{0266720c-e82b-4aa9-9601-922f3a41a94e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="情報ポインタ定義.cpp">
+      <Filter>参照しない。変更しない。\APIとデータ構造\アドレス%28理解する必要なし%29</Filter>
+    </ClCompile>
+    <ClCompile Include="アプリケーション情報型.cpp">
+      <Filter>参照しない。変更しない。\APIとデータ構造\ソース（理解する必要なし）</Filter>
+    </ClCompile>
+    <ClCompile Include="ゲームデータ構造.cpp">
+      <Filter>参照しない。変更しない。\APIとデータ構造\ソース（理解する必要なし）</Filter>
+    </ClCompile>
+    <ClCompile Include="シナリオ情報型.cpp">
+      <Filter>参照しない。変更しない。\APIとデータ構造\ソース（理解する必要なし）</Filter>
+    </ClCompile>
+    <ClCompile Include="デバッグ情報型.cpp">
+      <Filter>参照しない。変更しない。\APIとデータ構造\ソース（理解する必要なし）</Filter>
+    </ClCompile>
+    <ClCompile Include="デバッグ画像情報型.cpp">
+      <Filter>参照しない。変更しない。\APIとデータ構造\ソース（理解する必要なし）</Filter>
+    </ClCompile>
+    <ClCompile Include="フラグ情報型.cpp">
+      <Filter>参照しない。変更しない。\APIとデータ構造\ソース（理解する必要なし）</Filter>
+    </ClCompile>
+    <ClCompile Include="メッセージ関連情報型.cpp">
+      <Filter>参照しない。変更しない。\APIとデータ構造\ソース（理解する必要なし）</Filter>
+    </ClCompile>
+    <ClCompile Include="地域情報型.cpp">
+      <Filter>参照しない。変更しない。\APIとデータ構造\ソース（理解する必要なし）</Filter>
+    </ClCompile>
+    <ClCompile Include="城情報型.cpp">
+      <Filter>参照しない。変更しない。\APIとデータ構造\ソース（理解する必要なし）</Filter>
+    </ClCompile>
+    <ClCompile Include="大名情報型.cpp">
+      <Filter>参照しない。変更しない。\APIとデータ構造\ソース（理解する必要なし）</Filter>
+    </ClCompile>
+    <ClCompile Include="天気情報型.cpp">
+      <Filter>参照しない。変更しない。\APIとデータ構造\ソース（理解する必要なし）</Filter>
+    </ClCompile>
+    <ClCompile Include="官位情報型.cpp">
+      <Filter>参照しない。変更しない。\APIとデータ構造\ソース（理解する必要なし）</Filter>
+    </ClCompile>
+    <ClCompile Include="家宝情報型.cpp">
+      <Filter>参照しない。変更しない。\APIとデータ構造\ソース（理解する必要なし）</Filter>
+    </ClCompile>
+    <ClCompile Include="年情報型.cpp">
+      <Filter>参照しない。変更しない。\APIとデータ構造\ソース（理解する必要なし）</Filter>
+    </ClCompile>
+    <ClCompile Include="役職情報型.cpp">
+      <Filter>参照しない。変更しない。\APIとデータ構造\ソース（理解する必要なし）</Filter>
+    </ClCompile>
+    <ClCompile Include="戦場情報型.cpp">
+      <Filter>参照しない。変更しない。\APIとデータ構造\ソース（理解する必要なし）</Filter>
+    </ClCompile>
+    <ClCompile Include="武将情報型.cpp">
+      <Filter>参照しない。変更しない。\APIとデータ構造\ソース（理解する必要なし）</Filter>
+    </ClCompile>
+    <ClCompile Include="画面演出情報型.cpp">
+      <Filter>参照しない。変更しない。\APIとデータ構造\ソース（理解する必要なし）</Filter>
+    </ClCompile>
+    <ClCompile Include="相場情報型.cpp">
+      <Filter>参照しない。変更しない。\APIとデータ構造\ソース（理解する必要なし）</Filter>
+    </ClCompile>
+    <ClCompile Include="補助ライブラリ.cpp">
+      <Filter>参照しない。変更しない。\APIとデータ構造\ソース（理解する必要なし）</Filter>
+    </ClCompile>
+    <ClCompile Include="軍団情報型.cpp">
+      <Filter>参照しない。変更しない。\APIとデータ構造\ソース（理解する必要なし）</Filter>
+    </ClCompile>
+    <ClCompile Include="音楽情報型.cpp">
+      <Filter>参照しない。変更しない。\APIとデータ構造\ソース（理解する必要なし）</Filter>
+    </ClCompile>
+    <ClCompile Include="２Ｄ位置情報型.cpp">
+      <Filter>参照しない。変更しない。\APIとデータ構造\ソース（理解する必要なし）</Filter>
+    </ClCompile>
+    <ClCompile Include="３Ｄ位置情報型.cpp">
+      <Filter>参照しない。変更しない。\APIとデータ構造\ソース（理解する必要なし）</Filter>
+    </ClCompile>
+    <ClCompile Include="エキスポート関数群.cpp">
+      <Filter>参照しない。変更しない。\本体用プログラム\エキスポ</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessHandle.cpp">
+      <Filter>参照しない。変更しない。\本体用プログラム\プロセス</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>自分で変更する。自分でバックアップを取っておく。</Filter>
+    </ClCompile>
+    <ClCompile Include="ModMode.cpp">
+      <Filter>自分で変更する。自分でバックアップを取っておく。</Filter>
+    </ClCompile>
+    <ClCompile Include="カスタム駆動関数.cpp">
+      <Filter>自分で変更する。自分でバックアップを取っておく。</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="情報メモリアドレス.h">
+      <Filter>参照しない。変更しない。\APIとデータ構造\アドレス%28理解する必要なし%29</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>参照しない。変更しない。\本体用プログラム\リソース</Filter>
+    </ClInclude>
+    <ClInclude Include="デバッグクラス.h">
+      <Filter>参照しない。変更しない。\本体用プログラム\ライブラリ\デバッグ出力</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessHandle.h">
+      <Filter>参照しない。変更しない。\本体用プログラム\プロセス</Filter>
+    </ClInclude>
+    <ClInclude Include="アプリケーション情報型.h">
+      <Filter>参照する。変更しない。\APIとデータ構造</Filter>
+    </ClInclude>
+    <ClInclude Include="カスタム条件情報型.h">
+      <Filter>参照する。変更しない。\APIとデータ構造</Filter>
+    </ClInclude>
+    <ClInclude Include="シナリオ情報型.h">
+      <Filter>参照する。変更しない。\APIとデータ構造</Filter>
+    </ClInclude>
+    <ClInclude Include="ターン情報型.h">
+      <Filter>参照する。変更しない。\APIとデータ構造</Filter>
+    </ClInclude>
+    <ClInclude Include="デバッグ情報型.h">
+      <Filter>参照する。変更しない。\APIとデータ構造</Filter>
+    </ClInclude>
+    <ClInclude Include="デバッグ画像情報型.h">
+      <Filter>参照する。変更しない。\APIとデータ構造</Filter>
+    </ClInclude>
+    <ClInclude Include="メッセージ関連情報型.h">
+      <Filter>参照する。変更しない。\APIとデータ構造</Filter>
+    </ClInclude>
+    <ClInclude Include="地域情報型.h">
+      <Filter>参照する。変更しない。\APIとデータ構造</Filter>
+    </ClInclude>
+    <ClInclude Include="城情報型.h">
+      <Filter>参照する。変更しない。\APIとデータ構造</Filter>
+    </ClInclude>
+    <ClInclude Include="大名情報型.h">
+      <Filter>参照する。変更しない。\APIとデータ構造</Filter>
+    </ClInclude>
+    <ClInclude Include="天気情報型.h">
+      <Filter>参照する。変更しない。\APIとデータ構造</Filter>
+    </ClInclude>
+    <ClInclude Include="官位情報型.h">
+      <Filter>参照する。変更しない。\APIとデータ構造</Filter>
+    </ClInclude>
+    <ClInclude Include="家宝情報型.h">
+      <Filter>参照する。変更しない。\APIとデータ構造</Filter>
+    </ClInclude>
+    <ClInclude Include="年情報型.h">
+      <Filter>参照する。変更しない。\APIとデータ構造</Filter>
+    </ClInclude>
+    <ClInclude Include="役職情報型.h">
+      <Filter>参照する。変更しない。\APIとデータ構造</Filter>
+    </ClInclude>
+    <ClInclude Include="戦場情報型.h">
+      <Filter>参照する。変更しない。\APIとデータ構造</Filter>
+    </ClInclude>
+    <ClInclude Include="最大数.h">
+      <Filter>参照する。変更しない。\APIとデータ構造</Filter>
+    </ClInclude>
+    <ClInclude Include="武将情報型.h">
+      <Filter>参照する。変更しない。\APIとデータ構造</Filter>
+    </ClInclude>
+    <ClInclude Include="環境設定情報型.h">
+      <Filter>参照する。変更しない。\APIとデータ構造</Filter>
+    </ClInclude>
+    <ClInclude Include="画面演出情報型.h">
+      <Filter>参照する。変更しない。\APIとデータ構造</Filter>
+    </ClInclude>
+    <ClInclude Include="相場情報型.h">
+      <Filter>参照する。変更しない。\APIとデータ構造</Filter>
+    </ClInclude>
+    <ClInclude Include="補助ライブラリ.h">
+      <Filter>参照する。変更しない。\APIとデータ構造</Filter>
+    </ClInclude>
+    <ClInclude Include="軍団情報型.h">
+      <Filter>参照する。変更しない。\APIとデータ構造</Filter>
+    </ClInclude>
+    <ClInclude Include="音楽情報型.h">
+      <Filter>参照する。変更しない。\APIとデータ構造</Filter>
+    </ClInclude>
+    <ClInclude Include="２Ｄ位置情報型.h">
+      <Filter>参照する。変更しない。\APIとデータ構造</Filter>
+    </ClInclude>
+    <ClInclude Include="３Ｄ位置情報型.h">
+      <Filter>参照する。変更しない。\APIとデータ構造</Filter>
+    </ClInclude>
+    <ClInclude Include="ゲームデータ構造.h">
+      <Filter>参照する。変更しない。\データ構造名%28ここにある[p○○○○]が使える構造体だ%29</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryEditorMod.h">
+      <Filter>自分で変更する。自分でバックアップを取っておく。</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>自分で変更する。自分でバックアップを取っておく。</Filter>
+    </ClInclude>
+    <ClInclude Include="ModMode.h">
+      <Filter>自分で変更する。自分でバックアップを取っておく。</Filter>
+    </ClInclude>
+    <ClInclude Include="カスタム駆動関数.h">
+      <Filter>自分で変更する。自分でバックアップを取っておく。</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MemoryEditorMod.def">
+      <Filter>参照しない。変更しない。\本体用プログラム\エキスポ</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MemoryEditorMod.rc">
+      <Filter>参照しない。変更しない。\本体用プログラム\リソース</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MemoryEditorMod.resx">
+      <Filter>参照しない。変更しない。\本体用プログラム\リソース</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\MemoryEditorIcon.ico">
+      <Filter>参照しない。変更しない。\本体用プログラム\リソース</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
